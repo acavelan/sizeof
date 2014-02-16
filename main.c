@@ -13,7 +13,7 @@ int main(void)
 
     printf("\n");
 
-    PRINT_SIZE_OF(char, "one character, should be 1 byte");
+    PRINT_SIZE_OF(char, "one character");
     
     printf("\n");
     
@@ -24,7 +24,7 @@ int main(void)
 
     printf("\n");
 
-    PRINT_SIZE_OF(short int, "small integer");
+    PRINT_SIZE_OF(short, "small integer");
     PRINT_SIZE_OF(int, "integer");
     PRINT_SIZE_OF(long, "big integer");
 
